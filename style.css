@@ -1,0 +1,111 @@
+body,html{
+    margin: 0;
+    height: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+    color: #000000;
+}
+
+.img1{
+    background-image: url(image1.jpg);
+    min-height: 100%;
+}
+.img2{
+    background-image: url(image2.jpg);
+    min-height: 800px;
+}
+.img3{
+    background-image: url(image3.jpg);
+    min-height: 100%;
+}
+.img4{
+    background-image: url(image4.jpg);
+    min-height: 100%;
+}
+.img5{
+    background-image: url(image5.jpg);
+    min-height: 100%;
+}
+
+.img1,.img2,.img3,.img4,.img5{
+    position: relative;
+    background-position: center;
+    opacity: 1; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.section{
+    text-align: center;
+    padding: 20px 50px;
+}
+.section p{
+    font-size: 15px;
+}
+
+.section-style1{
+    background-color: #ffffff;
+    color: #000000;
+}
+.section-style1{
+    background-color: #202121;
+    color: #dddddd;
+}
+
+.txtimg{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+.txtimg .txtborder{
+    background-color: #ffffff;
+    color: #000000;
+    opacity: 0.80;
+    padding: 5px;
+    border-radius: 1px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+
+@media screen and (max-width: 600px)
+{
+    .img1{
+        background-image: url(phone1.jpg);
+        min-height: 100%;
+    }
+    .img2{
+        background-image: url(phone2.jpg);
+        min-height: 100%;
+
+    }
+    .img3{
+        background-image: url(phone3.jpg);
+        min-height: 100%;
+    }
+    .img4{
+        background-image: url(image4.jpg);
+        min-height: 100%;
+
+    }
+    .img5{
+        background-image: url(phone5.jpg);
+        min-height: 100%;
+
+    }
+    .txtimg .txtborder{
+        font-size: 20px;
+    }
+    .section p{
+        font-size: 13px;
+    }
+}
+    
